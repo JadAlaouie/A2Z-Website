@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Team | A2Z TechPro</title>
+    <link rel="icon" type="image/png" href="a2z.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <a href="index.html" class="logo-container">
+            <img src="a2z.png" alt="A2Z Logo" class="logo-img">
+            <h3>A2Z TechPro</h3>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="team.html" class="active">Team</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <p>The innovators driving technological excellence from A to Z.</p>
+            </div>
+
+            <div class="services-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 1200px; margin: 0 auto;">
+                <div class="service-card fade-in" style="text-align: center;">
+                    <img src="jad.jpeg" alt="Jad Alaouie" class="team-img">
+                    <h3>Jad Alaouie</h3>
+                    <p style="color: var(--accent); font-weight: 600; margin-top: 0.5rem;">Chief Technology Officer</p>
+                    <p style="margin: 1.5rem 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-gray);">
+                        Machine Learning & AI Engineer with deep expertise in developing intelligent automation systems. Specializes in NLP, LLMs, computer vision, and prompt engineering. Proficient in TensorFlow, PyTorch, LangChain, and deploying scalable AI solutions. Led development of WhatsApp chatbots, fire detection systems, and semantic segmentation models serving real-world applications.
+                    </p>
+                    <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center;">
+                        <a href="https://www.linkedin.com/in/jad-alaouie/" target="_blank" rel="noopener noreferrer" style="color: var(--accent); transition: all 0.3s ease;">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/JadAlaouie" target="_blank" rel="noopener noreferrer" style="color: var(--accent); transition: all 0.3s ease;">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card fade-in" style="text-align: center;">
+                    <img src="khalil.jpeg" alt="Khalil Alawie" class="team-img">
+                    <h3>Khalil Alawie</h3>
+                    <p style="color: var(--accent); font-weight: 600; margin-top: 0.5rem;">Founder & CEO</p>
+                    <p style="margin: 1.5rem 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-gray);">
+                        Multi-skilled IT Project Manager with 15+ years of technical and supervisory expertise in cinema technology and ICT systems. Extensive experience in cinema installations across the MEA region, with deep knowledge in digital signage, cinema management systems, and entertainment technology. Passionate about innovation in the cinema field, augmented reality, virtual reality, and video game technologies.
+                    </p>
+                    <div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center;">
+                        <a href="https://www.linkedin.com/in/khalil-alawie-571498159/" target="_blank" rel="noopener noreferrer" style="color: var(--accent); transition: all 0.3s ease;">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="simple-footer">
+        <p>&copy; 2024 A2Z TechPro. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
