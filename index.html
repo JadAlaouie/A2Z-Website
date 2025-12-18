@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2Z TechPro | AI & Software Solutions</title>
+    <link rel="icon" type="image/png" href="a2z.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <a href="index.html" class="logo-container">
+            <img src="a2z.png" alt="A2Z Logo" class="logo-img">
+            <h3>A2Z TechPro</h3>
+        </a>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="team.html">Team</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Future Tech <br> <span>From A to Z</span></h1>
+                <p>Transform your business with cutting-edge technology solutions. A2Z TechPro delivers innovation from strategy to implementation.</p>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="projects.html" class="btn">Explore Our Work</a>
+                    <a href="mailto:hello@a2ztechpro.com" class="btn" style="background: linear-gradient(135deg, var(--accent), #0099cc);">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="a2z.png" alt="A2Z TechPro Logo">
+            </div>
+        </section>
+
+        <div class="partners-section">
+            <p style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; margin-bottom: 1rem;">Our Trusted Partners</p>
+            <div class="partners-carousel-wrapper">
+                <div class="partners-carousel">
+                    <a href="https://www.ankrdevelopment.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="ANKR.png" alt="ANKR Development" class="partner-logo-img">
+                    </a>
+                    <a href="https://www.cine-mall.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="Cinemall.png" alt="Cinemall" class="partner-logo-img">
+                    </a>
+                    <a href="http://www.pib-partners.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="pib.png" alt="PIB Partners" class="partner-logo-img">
+                    </a>
+                    <a href="https://lb.grandcinemasme.com/en/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="gc.png" alt="Grand Cinemas" class="partner-logo-img">
+                    </a>
+                    <a href="http://www.eytburger.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="eyt.png" alt="EYT Burger" class="partner-logo-img">
+                    </a>
+                    <a href="https://www.becleb.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="bec.png" alt="BEC" class="partner-logo-img">
+                    </a>
+                    <a href="https://www.instagram.com/ohmygelatolb/?hl=en" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="ohmygelato.png" alt="Oh My Gelato" class="partner-logo-img">
+                    </a>
+                    <!-- Duplicate for seamless loop -->
+                    <a href="https://www.ankrdevelopment.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="ANKR.png" alt="ANKR Development" class="partner-logo-img">
+                    </a>
+                    <a href="https://www.cine-mall.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="Cinemall.png" alt="Cinemall" class="partner-logo-img">
+                    </a>
+                    <a href="http://www.pib-partners.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="pib.png" alt="PIB Partners" class="partner-logo-img">
+                    </a>
+                    <a href="https://lb.grandcinemasme.com/en/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="gc.png" alt="Grand Cinemas" class="partner-logo-img">
+                    </a>
+                    <a href="http://www.eytburger.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="eyt.png" alt="EYT Burger" class="partner-logo-img">
+                    </a>
+                    <a href="https://www.becleb.com/" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="bec.png" alt="BEC" class="partner-logo-img">
+                    </a>
+                    <a href="https://www.instagram.com/ohmygelatolb/?hl=en" target="_blank" rel="noopener noreferrer" class="partner-link">
+                        <img src="ohmygelato.png" alt="Oh My Gelato" class="partner-logo-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="section-header">
+                <h2>Our Expertise</h2>
+                <p style="color: var(--text-gray); max-width: 800px; margin: 0 auto; margin-top: 1rem;">From concept to deployment, we deliver cutting-edge technology solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <i class="fas fa-globe"></i>
+                    <h3>Web Development</h3>
+                    <p>Stunning, responsive websites built with modern frameworks like React, Vue.js, and Next.js. We create lightning-fast, SEO-optimized web applications that convert visitors into customers.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Applications</h3>
+                    <p>Native iOS and Android apps, or cross-platform solutions using Flutter and React Native. From concept to App Store deployment, we handle it all with precision and creativity.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Custom Software</h3>
+                    <p>Tailored enterprise software solutions that streamline your operations. We build scalable, maintainable systems using best practices in software architecture and design patterns.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI Automations</h3>
+                    <p>Transform your workflows with intelligent automation. Machine learning models, predictive analytics, natural language processing, and computer vision to give your business a competitive edge.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fab fa-whatsapp"></i>
+                    <h3>WhatsApp Chatbots</h3>
+                    <p>Engage customers 24/7 with AI-powered WhatsApp chatbots. Automate customer service, handle inquiries, process orders, and boost engagement with intelligent conversational interfaces.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-film"></i>
+                    <h3>Cinema Software Solutions</h3>
+                    <p>Complete cinema management systems including ticketing, seat selection, concession management, and digital signage integration. Built for multiplexes and independent theaters alike.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-tv"></i>
+                    <h3>Digital Signage</h3>
+                    <p>Dynamic digital display solutions for retail, corporate, and public spaces. Cloud-based content management, real-time updates, and analytics to maximize audience engagement.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Cyber Security</h3>
+                    <p>End-to-end encryption, penetration testing, and security audits. We protect your infrastructure with banking-grade security protocols and continuous monitoring systems.</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: rgba(0,0,0,0.3);">
+            <div class="section-header">
+                <h2>Why Choose A2Z TechPro?</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item fade-in">
+                    <i class="fas fa-rocket" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3>Rapid Development</h3>
+                    <p>Agile methodologies ensure fast delivery without compromising quality. From prototype to production in record time.</p>
+                </div>
+                <div class="feature-item fade-in">
+                    <i class="fas fa-cogs" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>No cookie-cutter templates. Every project is built from scratch to match your unique requirements and brand identity.</p>
+                </div>
+                <div class="feature-item fade-in">
+                    <i class="fas fa-chart-line" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3>Scalable Architecture</h3>
+                    <p>Built to grow with your business. Our systems handle increasing loads seamlessly, from startup to enterprise scale.</p>
+                </div>
+                <div class="feature-item fade-in">
+                    <i class="fas fa-headset" style="font-size: 3rem; color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock monitoring and support. We're here when you need us, ensuring maximum uptime and reliability.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="simple-footer">
+        <p>&copy; 2024 A2Z TechPro. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
